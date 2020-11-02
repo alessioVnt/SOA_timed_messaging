@@ -1,0 +1,6 @@
+Reader usage:
+sudo ./user <chdev_name> <recv_timeout>
+
+writer usage:
+sudo ./writer <chdev_name> <recv_timeout>
+type CLOSE will trigger close() function

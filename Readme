@@ -1,0 +1,13 @@
+
+COMPILAZIONE MODULO:
+	-make all
+
+INSERIMENTO MODULO:
+	-sudo insmod timed-messaging.ko  max_message_size=x max_storage_size=y
+
+CREAZIONE CHDEV:
+	-sudo mknod <nome> c <major> <minor>
+
+RIMOZIONE MODULO:
+	- sudo rmmod timed_messaging
+

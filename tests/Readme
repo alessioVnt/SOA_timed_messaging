@@ -1,0 +1,22 @@
+TESTS
+
+-single_no_timeout:
+sudo ./single_no_timeout <pathname> <major> <minor> <message>
+
+-single_timeout:
+sudo ./single_timeout <pathname> <major> <minor> <message> <recv_timeout> <send_timeout>
+
+-concurrent_no_timeout:
+sudo ./concurrent_no_timeout <pathname> <major> <minor> <writer_num> <reader_num>
+
+-concurrent_timeout:
+sudo ./concurrent_timeout <pathname> <major> <minor> <writer_num> <reader_num> <recv_timeout> <send_timeout>
+
+-revoke_test:
+sudo ./revoke_test <pathname> <major> <minor>
+
+-flush_test:
+sudo ./flush_test <pathname> <major> <minor> <write_timeout>
+
+-message_store_size_test:
+sudo ./message_store_size_test <pathname> <major> <minors_num>
